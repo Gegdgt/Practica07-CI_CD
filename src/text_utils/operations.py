@@ -16,7 +16,7 @@ def reverse(s: str) -> str:
     Lanza TypeError si s no es str.
     """
     _require_string(s, "s")
-    return s
+    return s[::-1]
 
 
 def count_vowels(s: str) -> int:
